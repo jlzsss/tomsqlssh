@@ -2,7 +2,7 @@
 FROM ubuntu:16.04
 # Auther 
 MAINTAINER charles "jihua.ma@gmail.com"
-ENV TZ "Asia/Shanghai"
+ENV TZ Asia/Shanghai
 RUN apt-get update
 RUN apt-get install -y openssh-server
 RUN mkdir -p /var/run/sshd
