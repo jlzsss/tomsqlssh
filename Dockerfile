@@ -1,5 +1,5 @@
 # VERSION 1.0.1
-FROM ubuntu:16.04
+FROM i386/ubuntu:16.04
 # Auther 
 MAINTAINER charles "jihua.ma@gmail.com"
 ENV TZ Asia/Shanghai
